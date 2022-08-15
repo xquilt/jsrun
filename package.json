@@ -1,0 +1,30 @@
+{
+  "name": "jsrun",
+  "version": "1.0.0",
+  "description": "A comparatively minimal Javasdcript scratchpad",
+  "main": "main.js",
+  "scripts": {
+	"start": "electron .",
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z0xyz/jsrun.git"
+  },
+  "keywords": [
+    "playground",
+    "scratchpad",
+    "javascript",
+    "code",
+    "editor"
+  ],
+  "author": "Polendina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z0xyz/jsrun/issues"
+  },
+  "homepage": "https://github.com/z0xyz/jsrun#readme",
+  "dependencies": {
+    "electron": "^20.0.2"
+  }
+}
