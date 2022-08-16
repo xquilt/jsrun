@@ -4,7 +4,7 @@
   "description": "A comparatively minimal Javasdcript scratchpad",
   "main": "main.js",
   "scripts": {
-	"start": "electron .",
+	"start": "electron --trace-warnings .",
     "test": "node main.js"
   },
   "repository": {
