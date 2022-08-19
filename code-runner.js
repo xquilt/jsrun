@@ -25,8 +25,14 @@ function runCode(){
 	const nodeOutput = spawn('node', ['-e', sourceCode])
 	nodeOutput.stdout.on('data', (data) => {
 		console.log(data.toString())
+		displayCodeOutput(data.toString() , 'code-output')
 	})
 
+}
+
+function displayCodeOutput(codeOutput, outputPaneId){
+	let codeOutputPane = document.getElementById(outputPaneId)
+	codeOutputPane.textContent = codeOutput
 }
 
 // Ipc communication

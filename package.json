@@ -4,7 +4,7 @@
   "description": "A comparatively minimal Javasdcript scratchpad",
   "main": "main.js",
   "scripts": {
-	"start": "electron --trace-warnings .",
+    "start": "electron --trace-warnings .",
     "test": "node main.js"
   },
   "repository": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/z0xyz/jsrun#readme",
   "dependencies": {
-    "electron": "^20.0.2"
+    "electron": "^20.0.2",
+    "node-fetch": "2.0"
   }
 }
