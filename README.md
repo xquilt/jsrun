@@ -16,3 +16,4 @@
 - [ ] Syntax highlighting
 - [ ] Common binding compilations
 - [ ] Code completion
+- [ ] Having an overall minimalist flat layout

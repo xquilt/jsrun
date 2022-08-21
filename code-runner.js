@@ -7,13 +7,13 @@ let runButton = document.getElementById("run-button")
 
 // This predefined inner text value is just for testing (To evade retyping the text area source code content every time)
 document.getElementById("sourcecode-area").textContent = `
-	console.log('hi')
-	let value = 'other vlaue'
-	console.log(value)
-	function doThat(parameterHere){
-		console.log('The value of the parameter is ' + parameterHere)
-	}
-	doThat('GamingScan')
+console.log('hi')
+let value = 'other value'
+console.log(value)
+function doThat(parameterHere){
+	console.log('The value of the parameter is ' + parameterHere)
+}
+doThat('GamingScan')
 `
 
 runButton.addEventListener('click', function(){runCode()})

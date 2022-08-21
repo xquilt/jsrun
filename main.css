@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+button#run-button {
+    float:left;
+}
+
+textarea {
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    height:80%;
+    width:50%;
+    overflow:hidden;
+    resize: none;
+}
+
+p#code-output {
+    background-color: yellow;
+    width:40%;
+    height:80%;
+    float:right;
+    white-space: pre-line;
+}
