@@ -7,10 +7,38 @@
 	</head>
 	<body>
 		<h1>Hello peaceful world!</h1>
+
 		<button id="run-button">Run</button>
+		<br>
+		<br>
+		<!-- Tab links-->
+		<div class="tab">
+			<button class="loadedFileTab">file-one.js</button>
+			<button class="loadedFileTab">file-two.js</button>
+			<button class="loadedFileTab">file-three.js</button>
+		</div>
+		<!-- Tab content-->
+		<div id="file-one.js" class="tabcontent">
+			console.log('hi')
+			let value = 'other value'
+			console.log(value)
+			function doThat(parameterHere){
+				console.log('The value of the parameter is ' + parameterHere)
+			}
+			doThat('GamingScan')
+		</div>
+		<div id="file-two.js" class="tabcontent">
+			Paris the capital of France.
+		</div>
+		<div id="file-three.js" class="tabcontent">
+			Tokyo is the cpaital of Japan
+		</div>
+
 		<textarea id="sourcecode-area"></textarea>
 		<p id="code-output"></p>
+
 	</body>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<script type="text/javascript" src="code-runner.js"></script>
+	<script type="text/javascript" src="file-loading.js"></script>
 </html>

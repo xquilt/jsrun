@@ -12,3 +12,13 @@ function loadRemoteFile(fileUrl){
 }
 
 loadRemoteFile(remoteFileUrl)
+
+// Adding event listener for file tabs
+let loadedFileTabs = document.querySelectorAll('.loadedFileTab')
+for(let i=0; i<loadedFileTabs.length; i++){
+    loadedFileTabs.item(i).addEventListener('click', function(event){
+        let clickedFileTabName = event.target.textContent
+        // Alter the source code area's content with the just-clicked loaded file content
+        document.getElementById('sourcecode-area').textContent = document.getElementById(clickedFileTabName).textContent
+    })
+}
